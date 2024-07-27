@@ -1,0 +1,121 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        color: #fff;
+        font-family: "Raleway", sans-serif;
+        background: url("./images/v882-kul-67-a.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header-container {
+        font-family: "Montserrat", sans-serif;
+        font-size: 60px;
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    span {
+        background-color: #FD8200;
+        color: #000000;
+        border-radius: 10px;
+    }
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      form {
+          padding: 20px;
+          display: flex;
+          align-items: center;
+          gap: 40px;
+
+      }
+
+      input {
+          width: 500px;
+          height: 60px;
+          color: black;
+          border-radius: 10px;
+          border: none;
+          padding: 0 15px;
+          font-size: 25px;
+          transition: 0.4s;
+      }
+
+        input:hover {
+            width: 600px;
+            padding: 0 35px;
+        }
+
+      button {
+         transition: 0.4s;
+         background-color: #FD8200;
+         width: 200px;
+         height: 60px;
+         border-radius: 10px;
+         border: none;
+         font-size: 25px;
+          cursor: pointer;
+      }
+
+        button:hover {
+          background-color: #c06505;
+            width: 250px;
+      }
+    }
+
+    .container {
+        padding: 0 150px;
+    }
+
+    main {
+
+    }
+
+    .block {
+        align-items: center;
+        margin-top: 150px;
+        display: flex;
+        gap: 500px;
+    }
+
+    .block img {
+        width: 35%;
+        border-radius: 10%;
+        border: 10px solid #FD8200;
+    }
+    .title-img {
+        width: 1200px;
+        text-align: center;
+
+        h2 {
+            color: #000000;
+            font-size: 40px;
+            margin-bottom: 20px;
+            background-color: #FD8200;
+            text-align: center;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        
+        ul {
+            list-style-type: none;
+            font-size: 25px;
+        }
+    }
+
+    .false-result {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+    }
+
